@@ -24,14 +24,14 @@
         android:id="@+id/time_display_background"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white" >
+        android:background="@color/bpWhite" >
         <include
             layout="@layout/radial_time_header_label"
             android:layout_width="match_parent"
             android:layout_height="@dimen/header_height"
             android:layout_gravity="center" />
     </FrameLayout>
-    <com.doomonafireball.betterpickers.radialtimepicker.RadialPickerLayout
+    <com.codetroopers.betterpickers.radialtimepicker.RadialPickerLayout
         android:id="@+id/time_picker"
         android:layout_height="@dimen/picker_dimen"
         android:layout_width="wrap_content"
@@ -43,7 +43,7 @@
         android:id="@+id/line"
         android:layout_width="match_parent"
         android:layout_height="1dip"
-        android:background="@color/line_background" />
+        android:background="@color/bpLine_background" />
     <Button
         android:id="@+id/done_button"
         android:background="@drawable/done_background_color"
